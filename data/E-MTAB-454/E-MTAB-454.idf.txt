@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-MTAB-454					
+Investigation Title	Times series of cells synchronized by double thymidine block					
+Comment[Submitted Name]	Times series of cells synchronized by double thymidine block					
+Experiment Description	HaCat cell cycle experiment: During the somatic cell cycle, DNA and epigenetic modifications in DNA and histones are copied to daughter cells. DNA replication timing is tightly regulated and linked to GC content, chromatin structure, andgene transcription, but how maintenance of histone modifications relates to replication timing and transcription is less understood.The gene expression patters on HaCaT keratinocytes during the cell cycle is studied by a time series analysis of synchroniced cells sampled at 3 hour intervals. We show that genes enriched with the repressive chromatin mark histone H3 lysine 27 tri-methylation are transcribed during DNA replication . The gene expression is related to replication timing, as genes expressed during G1/S transition andearly S phase generally have higher GC content and are replicated earlier than genes expressed during late S phase. These results indicate widespread replication-dependent expression in mammals and support a role for replication in transiently activating transcription of epigenetically silenced genes.					
+Experimental Design	time_series_design	in_vitro_design	co-expression_design	cell_cycle_design		
+Comment[AEExperimentType]	transcription profiling by array					
+Experimental Factor Name	time					
+Experimental Factor Type	time					
+Quality Control Type	biological_replicate					
+Public Release Date	2011-12-31					
+Person Last Name	Anderssen					
+Person First Name	Endre					
+Person Mid Initials						
+Person Email	endre.anderssen@gmail.com					
+Person Phone	1-617-515-8184					
+Person Address	205 Charles Street Apt 3					
+Person Affiliation	Harvard MGH, University of Tromso					
+Person Roles	submitter					
+Publication DOI	10.1093/nar/gks1336					
+PubMed ID	23325852					
+Publication Author List	Javier Pe?a-Diaz; Siv A. Hegre; Endre Anderssen; Per A. Aas; Robin Mjelle; Gregor D. Gilfillan; Robert Lyle; Finn Drabl›s; Hans E. Krokan; P†l S‘trom					
+Publication Title	Transcription profiling during the cell cycle shows that a subset of Polycomb-targeted genes is upregulated during DNA replication					
+Publication Status						
+Protocol Name	P-MTAB-18107	P-MTAB-18108	P-MTAB-18109	P-MTAB-18110	P-MTAB-18112	P-MTAB-20773
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	bioassay_data_transformation	hybridization
+Protocol Description	HaCaT cells were plated at 10 % confluence (1x106 cells) in 150-mm tissue culture dishes in DMEM with 10 % fetal bovine serum (FBS).	Cells were arrested in the interphase G1/S by double thymidine block; briefly, cells were treated with 2 mM thymidine for 18 hours, released from the arrest for 10 hrs and arrested a second time with 2 mM thymidine for 18 additional hours. After treatment, media was replaced and cells collected at 3 hrs intervals for up to 33 hrs	Total RNA was extracted using the High Pure RNA Isolation Kit (Roche Applied Science, Indianapolis, IN) and the manufacturer’s protocol.	RNA from synchronous cells was reversed transcribed into cDNA (cDNA synthesis Kit, Invitrogen, Carlsbad, CA), which was used as a template for the RNA polymerase Enzo (Affymetrix, Santa Clara, CA) to synthesize dUTP –dCTP biotinylated cRNA. The labeled cRNA was hybridized to Affymetrix oligonucleotide arrays (HG-U133 Set) under conditions specified by the manufacturer.	Data was normalised by robust multi array averaging (RMA) and data were transformed by base 2 logarithm. FinalMatrixA.txt corresponds to the hgu133a chip, whereas FinalMatrixB.txt corresponds to the hgu133b chip.	Hybridization and washing/staining were performed using the Hybridization oven 640 and Fluidics Station 450 (EukGE-WS2v5 protocol). Staining was performed using Streptavidin, R-phycoerythrin conjugate (SAPE, Molecular Probes, Eugene, Oregon) and biotinylated anti-streptavidin antibody (Vector Laboratories, Burlingame, CA). The arrays were scanned using an Affymetrix GeneChip 3000 scanner controlled by GeneChip® Operating Software 1.4 (GCOS, Affymetrix).
+SDRF File	E-MTAB-454.sdrf.txt					
