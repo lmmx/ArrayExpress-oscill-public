@@ -1,0 +1,1 @@
+* To use high_conf_miRNA_list.sh, point it to the directory under which miRBase (version 20 or higher) is stored. It will retrieve the list of high confidence miRNA annotations, query these accessions from RNAcentral, and output a list of miRNAs.
